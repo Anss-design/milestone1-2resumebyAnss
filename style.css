@@ -1,16 +1,17 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     height: 100%;
     width: 100%;
     font-family: poppins;
 }
 
-.header{
+.header {
     font-size: 20px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -22,22 +23,25 @@ html, body{
     text-align: center;
     align-items: center;
 }
-.header h1{
+
+.header h1 {
     border-bottom: 2px solid black;
 }
 
-#resumeform{
+#resumeform {
     margin: 10px;
     padding: 20px;
     justify-content: center;
     align-items: center;
 }
-legend{
+
+legend {
     font-weight: bold;
     padding: 10px;
     text-decoration: double underline;
 }
-.container{
+
+.container {
     margin-bottom: 15px;
     width: 100%;
     display: flex;
@@ -47,7 +51,12 @@ legend{
     text-align: center
 }
 
-#name, #email, #phone, #education, #experience, #skills{
+#name,
+#email,
+#phone,
+#education,
+#experience,
+#skills {
     width: 100%;
     padding: 10px;
     margin: 10px;
@@ -55,7 +64,7 @@ legend{
     border: 1px solid black;
 }
 
-fieldset{
+fieldset {
     border-radius: 10px;
     border: 1px solid black;
     padding-left: 10px;
@@ -67,30 +76,32 @@ fieldset{
     background-color: rgba(0, 255, 255, 0.212);
 }
 
-#submitbtn{
+#submitbtn {
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px;
     border-radius: 8px;
     border: none;
-    
+
     margin: 10px;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
 }
-#submitbtn:hover{
+
+#submitbtn:hover {
     background-color: white;
     color: black;
     border: 2px solid black;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-label{
+label {
     display: block;
 }
